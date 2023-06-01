@@ -58,7 +58,6 @@ Personal portfolio. Documents my journey to WebDev!
 
 The following tools were used in this project:
 
-- JavaScript: 
 - VS Code (https://code.visualstudio.com)
 - GitHub (https://www.github.com)
 
