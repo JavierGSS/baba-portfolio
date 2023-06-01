@@ -96,3 +96,7 @@ ol>li:before {
   text-align:right;
   content:counter(item) ".";
 }
+
+#baba {
+  border: 5px solid #100027;
+}
