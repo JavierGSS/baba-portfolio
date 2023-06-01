@@ -41,7 +41,13 @@ h3 {
     flex-direction: column;
     padding: 20px;
     align-items: center;
-} 
+}
+
+p {
+  margin: 30px;
+  text-align: justify;
+  
+}
 
 .heads {
   display: flex;
