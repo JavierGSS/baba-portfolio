@@ -86,3 +86,15 @@ ol>li:before {
 #baba {
   border: 5px solid #100027;
 }
+
+a:link {
+  color: rgb(50, 198, 5); 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(251, 151, 168);
+  background-color: transparent;
+  text-decoration: none;
+}
