@@ -1,6 +1,6 @@
 body{
     color: black;
-    font-family: Arial, Helvetica, sans-serif, monospace;
+    font-family: 'Playfair', serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -21,6 +21,7 @@ h1 {
     color: rgb(103, 142, 249);
     font-size: 60px;
     text-shadow: 2px 2px #f99821;
+    font-family: 'Playfair', serif;
   }
 
 h2 {
@@ -28,6 +29,7 @@ h2 {
     color: brown;
     font-size: 30px;
     text-decoration: underline;
+    font-family: 'Playfair', serif;
 }
 
 h3 {
@@ -46,6 +48,7 @@ h3 {
 p {
   margin: 30px;
   text-align: justify;
+  font-family: 'Playfair', serif;
   
 }
 
