@@ -1,4 +1,4 @@
-let velocity = 2;
+let velocity = 1.3;
 let position = 0;
 let moveRight = true;
 const cabezas = ['./pics/arist.png', './pics/frege.png']
@@ -7,9 +7,9 @@ let focus = 0;
 function move() {                    
     let pageWidth = window.innerWidth;
     let img = document.getElementById('arist');
-    let aristWidth = arist.width;
-                        
-    img.src = cabezas[focus];          
+    let aristWidth = arist.width;                        
+    img.src = cabezas[focus];
+
     if (moveRight) {
         position = position + velocity;
         arist.style.left = position + 'px';
