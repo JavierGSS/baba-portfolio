@@ -1,48 +1,47 @@
-body{
-    color: black;
-    font-family: 'Playfair', serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(217, 251, 251);
+body {
+  color: black;
+  font-family: 'Playfair', serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
-    max-width: 720px;
-    max-height: 660px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 720px;
+  max-height: 660px;
   }
 
 h1 {
-    text-align: center;
-    color: rgb(103, 142, 249);
-    font-size: 60px;
-    text-shadow: 2px 2px #f99821;
-    font-family: 'Playfair', serif;
+  text-align: center;
+  text-shadow: 2px 2px #f99821;
+  font-family: 'Playfair', serif;
   }
 
+#header1 {
+  font-size: 80px;
+}
+
 h2 {
-    text-align: center;
-    color: brown;
-    font-size: 30px;
-    text-decoration: underline;
-    font-family: 'Playfair', serif;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Playfair', serif;
 }
 
 h3 {
-  text-align: left;
-  color: rgb(42, 15, 158);
-  font-size: 18px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Playfair', serif;
 }
 
-.contenido-del-blog {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
+.contenido {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
 }
 
 p {
@@ -60,10 +59,9 @@ p {
 }
 
 figcaption {
-  background-color: rgb(217, 251, 251);
   color: rgb(0, 0, 0);
   font-style: normal;
-  font-family: Arial, Helvetica, sans-serif, monospace;
+  font-family: 'Playfair', serif;
   font-size: 14px;
   padding: 2px;
   text-align: center;
@@ -93,7 +91,7 @@ ol>li:before {
 }
 
 #baba {
-  border: 5px solid #100027;
+  border: 2.5px solid #000000;
 }
 
 a:link {
