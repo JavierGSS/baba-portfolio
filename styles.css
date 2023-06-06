@@ -1,25 +1,23 @@
 body {
   color: black;
   font-family: 'Playfair', serif;
-  font-size: 16px;
   margin: 0;
   padding: 0;
 }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  max-width: 720px;
-  max-height: 660px;
-  }
 
 h1 {
   text-align: center;
   text-shadow: 2px 2px #f99821;
   font-family: 'Playfair', serif;
   }
+
+.text-center {
+  z-index: 1;
+}
+
+#baba {
+  z-index: 1;
+}
 
 #header1 {
   font-size: 80px;
@@ -48,7 +46,6 @@ p {
   margin: 30px;
   text-align: justify;
   font-family: 'Playfair', serif;
-  
 }
 
 .heads {
@@ -56,6 +53,7 @@ p {
   flex-direction: row;
   position: absolute;
   left: 0px;
+  z-index: 1;
 }
 
 figcaption {
@@ -90,8 +88,19 @@ ol>li:before {
   content:counter(item) ".";
 }
 
+#script {
+    position: absolute;
+    top: 400px;
+    right: 940px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    z-index: -1;
+}
+
 #baba {
   border: 2.5px solid #000000;
+  z-index: 1;
 }
 
 a:link {
@@ -101,7 +110,64 @@ a:link {
 }
 
 a:visited {
-  color: rgb(251, 151, 168);
   background-color: transparent;
   text-decoration: none;
+}
+
+.footer {
+position: static;
+margin-left: 20px;
+max-width: 96%;
+left: 10px;
+bottom: 25%;
+width: 100%;
+background-color: rgb(171, 209, 242);
+border: 0.5px solid black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a b c d";
+}
+
+.display-date, .display-time {
+  grid-area: d;
+  color: rgb(62, 119, 217);
+  text-align: right;
+  font-style: normal;
+  font-family: 'Playfair', serif;
+}
+
+.fa {
+  padding: 3px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 70%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  grid-area: a;
+  background: #007bb5;
+  color: rgb(62, 119, 217);
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: rgb(62, 119, 217);
+  grid-area: b;
+}
+
+.fa-instagram {
+  grid-area: c;
+  background: #125688;
+  color: rgb(62, 119, 217);
 }
