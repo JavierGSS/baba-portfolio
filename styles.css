@@ -10,15 +10,21 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px #f0df23;
   font-family: 'Playfair', serif;
-  }
-
-.text-center {
-  z-index: 1;
 }
 
 #baba {
-  z-index: 1;
+  border-color: black;
+  animation-name: change;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes change {
+  0% {border-color: black;}
+  50% {border-color: yellow;}
+  100% {border-color: black;}
+}
+
 
 #header1 {
   font-size: 80px;
@@ -87,7 +93,7 @@ ol>li:before {
 }
 
 a:link {
-  color: rgb(50, 198, 5); 
+  color: rgb(157, 18, 73); 
   background-color: transparent; 
   text-decoration: none;
 }
@@ -95,17 +101,17 @@ a:link {
 a:visited {
   background-color: transparent;
   text-decoration: none;
+  color: rgb(17, 92, 17);
 }
 
 .footer {
 position: static;
 margin-left: 20px;
-max-width: 96%;
+margin-right: 30px;
 left: 10px;
-bottom: 25%;
+bottom: 20%;
 width: 100%;
-background-color: rgb(171, 209, 242);
-border: 0.5px solid black;
+
 }
 
 .container {
@@ -113,14 +119,6 @@ border: 0.5px solid black;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "a b c d";
-}
-
-.display-date, .display-time {
-  grid-area: d;
-  color: rgb(62, 119, 217);
-  text-align: right;
-  font-style: normal;
-  font-family: 'Playfair', serif;
 }
 
 .fa {
@@ -140,17 +138,23 @@ border: 0.5px solid black;
 .fa-linkedin {
   grid-area: a;
   background: #007bb5;
-  color: rgb(62, 119, 217);
+  color: rgb(56, 56, 56);
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: rgb(62, 119, 217);
   grid-area: b;
+  background: #55ACEE;
+  color: rgb(56, 56, 56);
 }
 
 .fa-instagram {
   grid-area: c;
   background: #125688;
-  color: rgb(62, 119, 217);
+  color: rgb(56, 56, 56);
+}
+
+.fa-github {
+  grid-area: d;
+  background: #125688;
+  color: rgb(56, 56, 56);
 }
