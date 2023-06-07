@@ -8,7 +8,7 @@ body {
 
 h1 {
   text-align: center;
-  text-shadow: 2px 2px #f0df23;
+  text-shadow: 2px 2px #ffffff;
   font-family: 'Playfair', serif;
 }
 
@@ -26,12 +26,13 @@ h1 {
 }
 
 #header1 {
-  font-size: 80px;
+  font-size: 70px;
+  color:rgb(57, 160, 212);
+  text-shadow: 2px 2px #000000;
 }
 
 h2 {
   text-align: center;
-  text-decoration: underline;
   font-family: 'Playfair', serif;
 }
 
