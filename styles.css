@@ -39,14 +39,14 @@ h1 {
 
 #baba {
   border-color: black;
-  animation-name: change;
+  animation-name: change-border;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
-@keyframes change {
+@keyframes change-border {
   0% {border-color: black;}
-  50% {border-color: rgb(202, 191, 48);}
+  50% {border-color: rgb(247, 231, 4);}
   100% {border-color: black;}
 }
 
