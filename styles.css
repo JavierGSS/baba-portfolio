@@ -3,11 +3,12 @@ body {
   font-family: 'Playfair', serif;
   margin: 0;
   padding: 0;
+
 }
 
 h1 {
   text-align: center;
-  text-shadow: 2px 2px #f99821;
+  text-shadow: 2px 2px #f0df23;
   font-family: 'Playfair', serif;
   }
 
@@ -48,14 +49,6 @@ p {
   font-family: 'Playfair', serif;
 }
 
-.heads {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  left: 0px;
-  z-index: 1;
-}
-
 figcaption {
   color: rgb(0, 0, 0);
   font-style: normal;
@@ -86,16 +79,6 @@ ol>li:before {
   font-weight:bold;
   text-align:right;
   content:counter(item) ".";
-}
-
-#script {
-    position: absolute;
-    top: 400px;
-    right: 940px;
-    width: 200px;
-    height: 100px;
-    border: 3px solid #73AD21;
-    z-index: -1;
 }
 
 #baba {
