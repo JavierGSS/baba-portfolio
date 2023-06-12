@@ -12,6 +12,11 @@ h1 {
   font-family: 'Playfair', serif;
 }
 
+.pseudo{
+  font-family: 'Playfair', serif;
+  font-style: bold;
+}
+
 .images {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
@@ -39,15 +44,7 @@ h1 {
 
 #baba {
   border-color: black;
-  animation-name: change-border;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes change-border {
-  0% {border-color: black;}
-  50% {border-color: rgb(247, 231, 4);}
-  100% {border-color: black;}
+  border-radius: 10%;
 }
 
 #header1 {
@@ -72,6 +69,7 @@ h3 {
   flex-direction: column;
   padding: 20px;
   align-items: center;
+  background-color: antiquewhite;
 }
 
 p {
