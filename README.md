@@ -46,13 +46,7 @@
 
 ## :dart: About ##
 
-Personal portfolio. Documents my journey to WebDev!
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+Personal portfolio. Documents my journey to WebDev! I will periodically add the features or projects I have been working on.
 
 ## :rocket: Technologies ##
 
@@ -60,10 +54,17 @@ The following tools were used in this project:
 
 - VS Code (https://code.visualstudio.com)
 - GitHub (https://www.github.com)
+- Mapbox (https://www.mapbox.com/)
+- Git (https://git-scm.com/)
+- Node (https://nodejs.org/en/)
 
 ## :white_check_mark: Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+## :alien: Road to future improvements ##
+
+Soon I'll be adding a nicer footer and a working contact form.
 
 ## :checkered_flag: Starting ##
 
