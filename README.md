@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-Personal portfolio. Documents my journey to WebDev! I will periodically add the features or projects I have been working on.
+Personal portfolio. Documents my journey to WebDev! I will periodically add the features or projects I have been working on. Feel free to navigate across them!
 
 ## :rocket: Technologies ##
 
