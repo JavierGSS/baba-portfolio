@@ -167,10 +167,11 @@ h4 {
 
 .robots {
   display: grid;
-  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-columns: repeat(2, 50%);
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  min-width: fit-content;
+  max-width: fit-content;
 }
 
 .cards {
