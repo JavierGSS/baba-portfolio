@@ -8,7 +8,7 @@ body {
 
 h1 {
   text-align: center;
-  text-shadow: 2px 2px #cfcece;
+  text-shadow: 1px 1px #cfcece;
   font-family: 'Belanosima', sans-serif;
 }
 
@@ -61,12 +61,6 @@ h1 {
   filter: sepia(65%);
 }
 
-#header1 {
-  font-size: 120px;
-  color:rgb(37, 132, 180);
-  text-shadow: 2px 2px #000000;
-}
-
 h2 {
   text-align: center;
   font-family: 'Belanosima', sans-serif;
@@ -74,9 +68,8 @@ h2 {
 
 #clip{
   text-align: center;
-  text-decoration: underline;
   font-family: 'Belanosima', sans-serif;
-  text-shadow: 1px 1px #cfcece;
+  text-shadow: .5px .5px #cfcece;
 }
 
 #contenido {
