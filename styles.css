@@ -8,7 +8,7 @@ body {
 
 h1 {
   text-align: center;
-  text-shadow: 2px 2px #ffffff;
+  text-shadow: 2px 2px #cfcece;
   font-family: 'Belanosima', sans-serif;
 }
 
@@ -24,12 +24,12 @@ h1 {
 
 #sun1 {
   padding-top: 30%;
-  animation: rotate1 5s;
+  animation: rotate1 5s infinite;
 }
 
 #sun2 {
   padding-top: 30%;
-  animation: rotate2 5s;
+  animation: rotate2 5s infinite;
 }
 
 @keyframes rotate1 {
@@ -41,13 +41,24 @@ h1 {
 }
 
 #baba {
-  border-color: black;
-  border-radius: 10%;
+  --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+  --m:
+    left   var(--_i,0%) top    var(--_g),
+    bottom var(--_i,0%) left   var(--_g),
+    top    var(--_i,0%) right  var(--_g),
+    right  var(--_i,0%) bottom var(--_g);
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale();
+  transition: .3s linear;
+  cursor: pointer;
 }
 
 #baba:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 3px rgba(0,0,0,.06);
+  --_i: 10%;
+  filter: grayscale(0);
+  border-radius: 23%;
+  filter: sepia(65%);
 }
 
 #header1 {
@@ -61,10 +72,11 @@ h2 {
   font-family: 'Belanosima', sans-serif;
 }
 
-h3 {
+#clip{
   text-align: center;
   text-decoration: underline;
   font-family: 'Belanosima', sans-serif;
+  text-shadow: 1px 1px #cfcece;
 }
 
 #contenido {
@@ -78,8 +90,10 @@ p {
   margin: 10px;
   text-align: justify;
   font-family: 'Belanosima', sans-serif;
-  background: rgba(209, 223, 233, 0.15);
+  font-size: x-large;
+  background: linear-gradient(0.25turn,rgba(235, 184, 31, 0.2), rgba(235,	248,	225, 0.2), rgba(235, 184, 31, 0.2));
   padding: 1%;
+  border-radius: 3%;;
 }
 
 figcaption {
@@ -89,11 +103,6 @@ figcaption {
   font-size: 15px;
   padding: 2px;
   text-align: center;
-}
-
-#baba {
-  border: 2.5px solid #000000;
-  z-index: 1;
 }
 
 a:link {
@@ -165,6 +174,7 @@ a:visited {
 
 h4 {
   text-align: center;
+  font-size: x-large;
   font-family: 'Belanosima', sans-serif;
 }
 
