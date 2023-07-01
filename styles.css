@@ -23,12 +23,12 @@ h1 {
 }
 
 #sun1 {
-  padding-top: 50%;
+  padding-top: 30%;
   animation: rotate1 5s;
 }
 
 #sun2 {
-  padding-top: 50%;
+  padding-top: 30%;
   animation: rotate2 5s;
 }
 
