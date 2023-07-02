@@ -23,12 +23,12 @@ h1 {
 }
 
 #circle1 {
-  padding-top: 30%;
+  padding-top: 20%;
   animation: rotate1 5s infinite;
 }
 
 #circle2 {
-  padding-top: 30%;
+  padding-top: 20%;
   animation: rotate2 5s infinite;
 }
 
@@ -227,7 +227,7 @@ h4 {
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.animate-charcter
+.animate-character
 {
   background-image: linear-gradient(
     -225deg,
