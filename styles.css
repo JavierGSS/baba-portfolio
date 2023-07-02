@@ -22,22 +22,22 @@ h1 {
   text-align: center;
 }
 
-#enso1 {
+#circle1 {
   padding-top: 30%;
   animation: rotate1 5s infinite;
 }
 
-#enso2 {
+#circle2 {
   padding-top: 30%;
   animation: rotate2 5s infinite;
 }
 
 @keyframes rotate1 {
-  100% {transform: rotate(360deg);}
+  100% {transform: rotate(360deg); transform-origin: center;}
 }
 
 @keyframes rotate2 {
-  100% {transform: rotate(-360deg);}
+  100% {transform: rotate(-360deg); transform-origin: center;}
 }
 
 #baba {
@@ -67,9 +67,10 @@ h2 {
 }
 
 #clip{
+  color: #99c986;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
-  text-shadow: .5px .5px #cfcece;
+  text-shadow: 1px 1px #000000;
 }
 
 #contenido {
@@ -230,9 +231,9 @@ h4 {
 {
   background-image: linear-gradient(
     -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
+    #c1a30c 0%,
+    #6ac61a 29%,
+    #ff8001 67%,
     #fff800 100%
   );
   background-size: auto auto;
