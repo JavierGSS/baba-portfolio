@@ -22,12 +22,12 @@ h1 {
   text-align: center;
 }
 
-#sun1 {
+#enso1 {
   padding-top: 30%;
   animation: rotate1 5s infinite;
 }
 
-#sun2 {
+#enso2 {
   padding-top: 30%;
   animation: rotate2 5s infinite;
 }
