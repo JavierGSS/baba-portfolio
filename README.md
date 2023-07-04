@@ -57,6 +57,7 @@ The following tools were used in this project:
 - Mapbox (https://www.mapbox.com/)
 - Git (https://git-scm.com/)
 - Node (https://nodejs.org/en/)
+- Formspree (https://formspree.io/)
 
 ## :white_check_mark: Requirements ##
 
