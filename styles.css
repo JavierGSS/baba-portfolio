@@ -25,11 +25,13 @@ h1 {
 #circle1 {
   padding-top: 20%;
   animation: rotate1 5s infinite;
+  z-index: -1;
 }
 
 #circle2 {
   padding-top: 20%;
   animation: rotate2 5s infinite;
+  z-index: -1;
 }
 
 @keyframes rotate1 {
