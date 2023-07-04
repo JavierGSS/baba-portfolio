@@ -311,3 +311,11 @@ h4 {
   }
   
 }
+
+#contact-form {
+  position: sticky;
+  left: 50%;
+  display: block;
+  gap: 3px;
+  text-align: center;
+}
