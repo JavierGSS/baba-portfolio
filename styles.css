@@ -104,12 +104,12 @@ figcaption {
 a:link {
   color: rgb(157, 18, 73); 
   background-color: transparent; 
-  text-decoration: none;
+  text-decoration:underline;
 }
 
 a:visited {
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
   color: rgb(17, 92, 17);
 }
 
